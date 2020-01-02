@@ -20,6 +20,9 @@
     0 10px 10px rgba(0,0,0,.2),
     0 20px 20px rgba(0,0,0,.15);
 }
+.vlad:hover{
+    color: blue;
+}
 .row{
     display: flex;
     justify-content: space-around;
@@ -30,21 +33,11 @@
     border: 5px solid rgb(255, 69, 69) ;
     max-width: 33%;
     height: 100%;
-        
-    
-        
-        
 }
+
 .top-cont{
-        
-          
-        
-        
     background-color: $color2;
-    height: 100vh;
-        
-        
-        
+    height: 100vh;     
 }
 .col{
     max-width: 100%;
@@ -69,6 +62,10 @@
     font-family: 'Josefin Sans', sans-serif;
     align-items: center;
     flex-direction: column;
+}
+.kgb:hover{
+    font-style: oblique;
+    font-weight: boldest;
 }
 .bot-text{
   font-size: 7rem;
@@ -118,4 +115,25 @@
 .max{
     max-width: 100%;
     max-height: 100%;
+}
+#slav{}
+#slav:hover{
+    filter: invert(1);
+}
+#putin{}
+#putin:hover{
+    transform: scale(1.1);
+    border: 5px solid rgb(255, 69, 69) ;
+}
+#gopnik{}
+#gopnik:hover{
+    filter: contrast(10);
+}
+#son{}
+#son:hover{
+    filter: saturate(100);
+}
+#baboosh{}
+#baboosh:hover{
+    filter: sepia(100);
 }

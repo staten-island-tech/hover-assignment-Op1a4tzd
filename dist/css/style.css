@@ -6,6 +6,10 @@
   text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.2), 0 5px 10px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.2), 0 20px 20px rgba(0, 0, 0, 0.15);
 }
 
+.vlad:hover {
+  color: blue;
+}
+
 .row {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -62,6 +66,11 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+}
+
+.kgb:hover {
+  font-style: oblique;
+  font-weight: boldest;
 }
 
 .bot-text {
@@ -121,5 +130,31 @@
 .max {
   max-width: 100%;
   max-height: 100%;
+}
+
+#slav:hover {
+  -webkit-filter: invert(1);
+          filter: invert(1);
+}
+
+#putin:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  border: 5px solid #ff4545;
+}
+
+#gopnik:hover {
+  -webkit-filter: contrast(10);
+          filter: contrast(10);
+}
+
+#son:hover {
+  -webkit-filter: saturate(100);
+          filter: saturate(100);
+}
+
+#baboosh:hover {
+  -webkit-filter: sepia(100);
+          filter: sepia(100);
 }
 /*# sourceMappingURL=style.css.map */
